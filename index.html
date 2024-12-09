@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Route Weather</title>
+  <link href="css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="container ">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/logo.png" alt="Cloud Icon">
+          <div class="d-flex flex-column">
+            Weather
+            <span class="h6 tagline"> tagline goes here</span>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section class="bg">
+    <div class="container in-g">
+      <div class="search">
+        <input class="search" type="text" placeholder="Find your location..." id="search">
+        <button id="submit" class="text-center d-flex align-items-center">Find</button>
+      </div>
+    </div>
+  </section>
+  
+  <div class="container">
+    <div class="container2" id="forecastContainer">
+      <!-- Weather forecast will be injected here -->
+    </div>
+  </div>
+
+  <footer class="footer text-white text-center py-3" style="background-color: #262936;">
+    <div class="container in-g d-flex justify-content-between align-items-center">
+      <div class="search" style="width: 65%;">
+        <input class="submit" type="text" placeholder="Enter your Email to subscribe..." id="search">
+        <button id="submit" class="text-center d-flex align-items-center">Subscribe</button>
+      </div>
+      <div class="social-media w-23 d-flex g-2">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-google-plus"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+    <p >&copy; Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+  </footer>
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

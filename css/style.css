@@ -1,0 +1,274 @@
+.bg{
+    background-image:url(../imgs/banner.png) ;
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.search input{
+    
+        width: 100%;
+        padding: 15px 30px 15px 20px;
+        background-color: #1E202B;
+        color: white;
+        outline:none;
+        border: none;
+        border-radius: 30px;
+    
+}
+.search{
+    position: relative;
+}
+button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+#submit{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color:#009ad8
+;
+}
+
+
+
+
+
+
+
+body {
+    background-color: #1E202B; 
+    color: #bfc1c8;
+}
+.tagline{
+    font-size:  10px;;
+}
+
+.navbar {
+    background-color: #1E202B; 
+    padding: 10px 30px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 24px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-right: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border: 2px solid transparent; 
+    box-sizing: border-box; 
+    border-radius: 30px; 
+    transition: all 0.3s ease;
+    font-weight: 400;
+    position: relative;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color:#00aced; 
+    border: 2px solid #00aced; 
+}
+
+.navbar-nav .nav-link.active {
+    color:#00aced; 
+    border: 2px solid #00aced; }
+    .navbar-brand {
+        color: #ffffff; 
+        text-decoration: none; 
+        pointer-events: none; 
+    }
+    
+    .navbar-brand:hover {
+        color: #ffffff;
+        background-color: transparent; 
+        border: none;
+    }
+/* jjjjjj */
+
+
+
+
+
+    /* endddddddddd */
+    footer {
+        background: #343a40;
+    }
+    
+/* ااااااااااااا */
+
+
+.cardhead{
+    font-size: 15px;
+     background-color: rgb(45, 48, 61);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.content{
+    padding: 50px 20px 10px;
+    
+}
+.city{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:  #bfc1c8;;
+
+}
+.degree{
+   
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+    
+
+}
+.degree .num{
+    font-size: 4rem;
+    margin-right: 30px;
+    vertical-align: middle;
+
+}
+ .osss{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.5em;
+
+}
+.w-1-7{
+    font-size: 1.1428571429em;
+
+}
+
+.img1{
+    width: 90px;
+}
+.special{
+    color: #009ad8;
+    margin: 20px 0;
+}
+.card-footer span{
+    margin-right: 30px;
+}
+.card{
+    background-color: rgb(54, 58, 73);
+}
+.img2 img{
+    width: 45px;
+    margin-bottom: 20px;
+
+}
+.color{
+    background-color: #262936
+}
+
+.container2{
+    background: #323544;
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+height: 400px;
+}
+.size{
+    width: 33.33%;
+}
+
+.min{
+    color: #b1c1c8;
+}
+.wind{
+    color:#b1c1c8;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+footer{
+    background-color: #262936;
+
+}
+.footer {
+    background-color: #262936;
+    padding: 30px 0;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #1E202B;
+  }
+  
+  .search button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #009AD8;
+    cursor: pointer;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-icon {
+    background-color: #1E202B;
+    border-radius: 50%;
+    padding: 12px;
+    color: #009AD8;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    background-color: #009AD8;
+    color: white;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bfc1c8;
+  }
+  
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
